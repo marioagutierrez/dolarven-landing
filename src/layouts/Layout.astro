@@ -1,0 +1,40 @@
+---
+import "../styles/global.css";
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="/dolarven-icon.png" />
+		<meta name="generator" content={Astro.generator} />
+		<meta
+			name="description"
+			content="Consulta las tasas de cambio BCV y Paralelo en tiempo real desde tu iPhone. Widget para Lock Screen, calculadora inteligente y notificaciones automáticas."
+		/>
+		<meta
+			name="keywords"
+			content="dolar, venezuela, tasa de cambio, BCV, paralelo, bolivar, USD"
+		/>
+		<title>{title}</title>
+
+		<!-- Open Graph / Social Media -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={title} />
+		<meta
+			property="og:description"
+			content="Tasas de cambio BCV y Paralelo en tiempo real para Venezuela"
+		/>
+		<meta property="og:image" content="/dolarven-icon.png" />
+	</head>
+	<body class="antialiased">
+		<slot />
+	</body>
+</html>

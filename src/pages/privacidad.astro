@@ -1,0 +1,138 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Política de Privacidad - Dolarven">
+    <main class="min-h-screen bg-gradient-to-br from-blue-50 to-white">
+        <div class="container mx-auto px-4 py-16 max-w-4xl">
+            <a
+                href="/"
+                class="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 font-medium"
+            >
+                ← Volver al inicio
+            </a>
+
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
+                Política de Privacidad de Dolarven
+            </h1>
+
+            <div
+                class="bg-white rounded-2xl shadow-sm border border-blue-100 p-8 md:p-12 prose prose-blue max-w-none"
+            >
+                <p class="text-lg text-gray-600 mb-6">
+                    <strong>Última actualización:</strong> 3 de febrero de 2026
+                </p>
+
+                <p class="text-gray-700 mb-8">
+                    En Dolarven, valoramos tu privacidad. Esta política describe
+                    cómo manejamos la información en nuestra aplicación móvil.
+                </p>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                        1. Recopilación de Información
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Dolarven ha sido diseñada para ser una herramienta de
+                        consulta privada y segura:
+                    </p>
+                    <p class="text-gray-700 mb-3">
+                        <strong>No recopilamos datos personales:</strong> No solicitamos
+                        nombres, correos electrónicos, números de teléfono ni datos
+                        de ubicación.
+                    </p>
+                    <p class="text-gray-700">
+                        <strong>Sin registro de cuenta:</strong> No es necesario crear
+                        una cuenta para utilizar las funciones de la aplicación.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                        2. Uso de Notificaciones y Tareas de Fondo
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Para ofrecerte la mejor experiencia, la app utiliza
+                        funciones específicas del sistema iOS:
+                    </p>
+                    <p class="text-gray-700 mb-3">
+                        <strong>Notificaciones Locales:</strong> Si otorgas el permiso,
+                        la app programará recordatorios locales a las 10:00 AM y 1:00
+                        PM para informarte sobre las actualizaciones de tasa. Estas
+                        notificaciones se generan dentro de tu dispositivo y no requieren
+                        el envío de tus datos a servidores externos.
+                    </p>
+                    <p class="text-gray-700">
+                        <strong>Background Tasks:</strong> La app utiliza el framework
+                        BackgroundTasks para intentar mantener los datos del widget
+                        actualizados en segundo plano.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                        3. Servicios de Terceros
+                    </h2>
+                    <p class="text-gray-700 mb-4">
+                        Nuestra aplicación obtiene información de precios a
+                        través de la API de <a
+                            href="https://dolarapi.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-blue-600 hover:text-blue-700"
+                            >dolarapi.com</a
+                        >.
+                    </p>
+                    <p class="text-gray-700">
+                        Al realizar estas consultas, solo se envía la
+                        información técnica estándar necesaria para la
+                        comunicación web (como la dirección IP), pero ningún
+                        dato que pueda identificarte personalmente.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                        4. Seguridad de los Datos
+                    </h2>
+                    <p class="text-gray-700">
+                        Al no recopilar información en servidores propios, el
+                        riesgo de filtración de datos es inexistente. Toda la
+                        configuración de la calculadora y preferencias de la app
+                        se almacenan de forma local en tu dispositivo.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                        5. Consentimiento
+                    </h2>
+                    <p class="text-gray-700">
+                        Al utilizar Dolarven, aceptas los términos descritos en
+                        esta política. Puedes revocar el permiso de
+                        notificaciones en cualquier momento desde los ajustes de
+                        tu iPhone.
+                    </p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+                        6. Contacto de Soporte
+                    </h2>
+                    <p class="text-gray-700">
+                        Si tienes dudas sobre esta política o el funcionamiento
+                        de la app, puedes contactarnos a través de:
+                    </p>
+                    <p class="text-gray-700 mt-2">
+                        <a
+                            href="mailto:hola@mariodev.co"
+                            class="text-blue-600 hover:text-blue-700"
+                        >
+                            hola@mariodev.co
+                        </a>
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+</Layout>
